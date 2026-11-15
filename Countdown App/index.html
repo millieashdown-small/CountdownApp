@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Our Countdown</title>
+        <link rel="icon" href="assets/Icon.png">
+        <link rel="apple-touch-icon" href="assets/Icon.png">
+        <!--google fonts links-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <div class="main-title">
+            <h1 id="title">Our Countdown</h1>
+            <p id="title-text">A little collection of big moments for us</p>
+        </div>
+
+        <!--A wrapper to hold all three cards so I can lay them out together-->
+        <main class="countdown-wrapper">
+
+        <!-- Each card shares the class "card" for shared styling making  CSS easier
+         and has its' own id for individual tweaks and javascript-->
+        <div class="card" id="anniversary">
+            <h2>Our First Anniversary</h2>
+            <p>14th December 2026</p>
+            <p class="timer">-- days</p>
+        </div>
+
+        <div class="card" id="ship">
+            <h2>I Join the Ship</h2>
+            <p>28th February 2027</p>
+            <p class="timer">-- days</p>
+        </div>
+
+        <div class="card" id="home">
+            <h2>You Come Home</h2>
+            <p>6th June 2027</p>
+            <p class="timer">-- days</p>
+        </div>
+        
+        </main>
+
+        <script src="app.js"></script>
+
+        <footer class="footer">
+            <h3>London - Tokyo</h3>
+            <p>5,940 miles</p>
+            <p>9 hours time difference</p>
+        </footer>
+    </body>
+    
+</html>

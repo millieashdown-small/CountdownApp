@@ -1,0 +1,55 @@
+body {
+    margin:0;
+    min-height: 100vh;
+    background-image: url("assets/Countdown Background.png");
+    background-position:center;
+    font-family: "Cormorant Garamond", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    display:flex;
+    flex-direction: column;
+}
+
+.main-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    letter-spacing: 0.1em;
+}
+
+#title {
+    font-family: "Dancing Script", cursive;
+}
+
+.countdown-wrapper {
+    display:flex;
+    flex-direction: column;
+    flex-wrap:wrap;
+    align-items: center;
+    gap: 24px;
+    padding: 40px; 
+    letter-spacing: 0.1em;
+    flex: 1;
+}
+
+.card {
+    background-color: white;
+    border-radius: 16px;
+    padding: 24px;
+    width: 100%;
+    max-width: 350px;
+    box-sizing:border-box;
+    text-align: center;
+    box-shadow: 0 4px 12px rgb(0,0, 0, 0.15);
+}
+
+.footer{
+    background-color: white;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 0.1em;
+}
